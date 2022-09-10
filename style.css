@@ -1,0 +1,143 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(39, 37, 37);
+    
+}   
+.title{
+    color: rgb(83, 81, 81);
+    font-family: 'Roboto Mono', monospace;
+    position: relative;
+    text-align: center;
+    z-index: 1;
+    font-size: 3rem;
+    background: -webkit-linear-gradient(rgb(0, 0, 255),rgb(255, 255, 255),rgb(255, 0, 0));
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+input{
+    margin-left: 50%;
+    background-color: rgb(1, 1, 2);
+    border-radius: 1rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 5rem;
+    z-index: 1;
+    color:white;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2rem;
+    background: -webkit-linear-gradient(rgb(0, 0, 255),rgb(255, 255, 255),rgb(255, 0, 0));
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#div1{
+    margin-top:1rem;
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    color: aliceblue;
+    border: double;
+}
+.events{
+background: -webkit-linear-gradient(blue, white,red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 1.1rem;
+}
+#win{
+    background: -webkit-linear-gradient(blue, white,red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 400%;
+  font-family: 'Roboto Mono', monospace;
+}
+#rounds{
+
+    background: -webkit-linear-gradient(blue, white,red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Roboto Mono', monospace;
+
+}
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+body {
+	margin: 0;
+	background: #222;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 800;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+header {
+  background: -webkit-linear-gradient(rgba(12, 12, 85, 0.315),rgba(112, 12, 12, 0.315),rgb(39, 37, 37));
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  padding: 10px 0;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 23px;
+
+  position: relative;
+}
+
+nav a {
+  color: rgb(236, 236, 236);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: #000;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #444;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
